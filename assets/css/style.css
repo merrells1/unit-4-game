@@ -1,0 +1,207 @@
+/*General items*/
+body {
+    height: auto;
+}
+.gameContainer {
+    height: 100%;
+    margin: 10px;
+     /* The image used */
+
+     background-image: url("C:/Users/archi/Desktop/codingbootcamp/smerrell/unit-4-game/assets/images/solid_@2X.png");
+
+     /* Full height */
+     height: 100%; 
+ 
+     /* Center and scale the image nicely */
+     background-position: center;
+     background-size: auto;
+}
+
+/*Game Title areas*/
+.titleTextRow {
+    height: auto;
+    width: auto;
+}
+.gameTitleTextCol {
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column; /* column | row */
+    background-color: orangered;
+    width: 33.3%;
+    height: 80px;
+}
+
+.gameTitle {    
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;    
+    text-justify: center;
+    margin: auto;    
+}
+
+
+
+/*Game Instructions areas*/
+.instructionContainerBox {
+    padding: 0px;
+    margin: 0px;
+}
+.instructiontextRow {
+    height: auto;
+    width: auto;
+    padding-left: 15px;
+}
+
+.instructionCol {
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column; /* column | row */
+    background-color: peachpuff;
+    height: 400px;
+}
+
+.instructionText {    
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+    font-size: 20px;
+    text-align: center;    
+    text-justify: center;
+    margin: auto;  
+}
+
+
+/*random number and wins-losses areas*/
+#gameNumberText {
+    height: auto;
+    width: auto;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 40px;
+    text-align: left;    
+    text-justify: left;
+    margin: auto; 
+}
+
+.randomNumContainerBox {
+    padding: 0px;
+    margin: 0px;
+}
+
+.ranNumWinLossRow {
+    height: auto;
+    width: auto;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 30px;
+    text-align: left;    
+    text-justify: left;
+    margin: auto; 
+}
+
+.randomNumCol {
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column; /* column | row */
+    background-color: green;
+    height: 200px;
+}
+
+.winsLossesCol {
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column; /* column | row */
+    background-color: cyan;
+    height: 200px; 
+    margin-left: 15px;
+}
+
+.gameNumberSubCol {
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column; /* column | row */
+    background-color: cyan;
+    height: 200px;
+}
+
+.winsText, lossText {
+    height: auto;
+    width: auto;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 10px;
+    text-align: left;    
+    text-justify: left;
+    margin: auto; 
+}
+
+.crystalImageContainerBox {
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.totalScoreTextContainerBox {
+    height: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+.totalScoreTextRow {
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column; /* column | row */
+    background-color: seagreen;
+    width: 33.3%;
+    height: 40px;
+    padding: 0px;
+}
+
+.yourTotalScoreText {    
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;    
+    text-justify: center;
+    margin: auto;  
+}
+
+.totalScoreContainerBox {
+    height: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+.scoreRow {
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column; /* column | row */
+    background-color: seagreen;
+    width: 33.3%;
+    height: 200px;
+    padding: 0px;
+}
+
+#scoreText {
+    height: auto;
+    width: auto;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 40px;
+    text-align: left;    
+    text-justify: left;
+    margin: 0px;
+}
