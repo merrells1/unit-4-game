@@ -5,6 +5,10 @@ body {
 .gameContainer {
     height: 100%;
     margin: 10px;
+    padding-left: 15px;    
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
      /* The image used */
 
      background-image: url("C:/Users/archi/Desktop/codingbootcamp/smerrell/unit-4-game/assets/images/solid_@2X.png");
@@ -70,6 +74,10 @@ body {
     text-align: center;    
     text-justify: center;
     margin: auto;  
+}
+
+#startButton {
+    margin-bottom: 10px;
 }
 
 
@@ -140,12 +148,43 @@ body {
     margin: auto; 
 }
 
+
+/*crystal button areas*/
 .crystalImageContainerBox {
     height: 100px;
     margin: 0px;
     padding: 0px;
 }
 
+#redCrystalBtn {
+    border: 0px;
+    height: 100px;
+    width: 96px;
+    background: url("C:/Users/archi/Desktop/codingbootcamp/smerrell/unit-4-game/assets/images/redCrystal.png") no-repeat;    
+}
+
+#blueCrystalBtn {
+    border: 0px;
+    height: 100px;
+    width: 96px;
+    background: url("C:/Users/archi/Desktop/codingbootcamp/smerrell/unit-4-game/assets/images/blueCrystal.png") no-repeat;    
+}
+
+#yellowCrystalBtn {
+    border: 0px;
+    height: 100px;
+    width: 96px;
+    background: url("C:/Users/archi/Desktop/codingbootcamp/smerrell/unit-4-game/assets/images/yellowCrystal.png") no-repeat;    
+}
+
+#greenCrystalBtn {
+    border: 0px;
+    height: 100px;
+    width: 96px;
+    background: url("C:/Users/archi/Desktop/codingbootcamp/smerrell/unit-4-game/assets/images/greenCrystal.png") no-repeat;    
+}
+
+/*total score text and total score display areas*/
 .totalScoreTextContainerBox {
     height: 40px;
     margin-top: 0px;
